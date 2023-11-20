@@ -10,7 +10,7 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 - **AES Encryption in CBC Mode:** Utilizes the Fernet class from the cryptography.fernet module for AES encryption in Cipher Block Chaining (CBC) mode.
 - **Dynamic AES Key Generation:** Generates a dynamic AES key for each file to enhance security.
 - **RSA Encryption:** Utilizes the Crypto.PublicKey module for RSA encryption to securely transmit the AES key using the recipient's public key.
-- **Tor Integration:** Sends encrypted files over the Tor network, generating recipient-accessible Tor URLs for encrypted file retrieval.
+- **Tor Integration:** Sends encrypted files over the Tor network, generating recipient-accessible Tor URLs for encrypted file retrieval. (The purpose of integrating Tor into the file-sharing application is to ensure the anonymity and privacy of users during the file transfer process. Tor, or The Onion Router, routes network traffic through a series of volunteer-operated servers, making it difficult to trace the origin and destination of the data. This anonymization layer adds a robust level of privacy, preventing third parties from easily identifying the users involved in file sharing. By leveraging Tor, the application aims to provide a secure and confidential environment for users to exchange files without compromising their identity or the integrity of the data.)
 - **Sender Options:**
   1. **Send Files on Tor and Generate Link:** Allows the sender to share files on the Tor network and generate a unique link for secure file access.
   2. **Send Files on Receiver's Link in Tor:** Enables the sender to send files directly to the recipient's Tor link for secure sharing.
