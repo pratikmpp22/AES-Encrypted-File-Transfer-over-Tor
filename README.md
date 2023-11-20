@@ -1,22 +1,17 @@
-# aes-rsa-tor-file-transfer
-As technology advances there is an increase in the amount of data being transferred over the network. One of the principle challenge that is faced is security. Security is achieved by encryption; In this project, a AES symmetric block cipher is initially used to encrypt the file, the key obtained from the AES encryption is encrypted again using bit RSA algorithm. Similarly, the decryption is done using RSA algorithm to obtain the key which is used to decrypt the message using AES algorithm. AES is a symmetric algorithm that uses only a private key and RSA is an asymmetric encryption system that works with two different keys: A public and a private key. Both work complementary to each other, which means, when a message is encrypted with one of them can only be decrypted by its counterpart. This combination of algorithms provides better security and efficiency. The file served on a Tor server from which anyone can download by accessing the onion link but only person with private key will be able to decrypt the file. 
+# Secure File Transfer via AES-RSA Encryption over Tor
 
-IMPLEMENTATION 
+This project combines the security of AES and RSA encryption with the anonymity benefits of Tor to create a robust and efficient method for securely sharing files.
 
-We have used these two techniques in this file sharing project and also used tor services for securely sharing files.
+## Overview
 
-Step 1: Browse the file to be encrypted. 
+The project provides a PyQt5-based graphical user interface (GUI) for seamless file handling, encryption, decryption, and transmission and reception over the Tor network.
 
-Step 2: Now will apply AES encryption on browsed file using randomly generated key. 
+## Features
 
-Step 3: From AES encryption will have key and encrypted file. 
+- **AES Encryption in CBC Mode:** Utilizes the Fernet class from the cryptography.fernet module for AES encryption in Cipher Block Chaining (CBC) mode.
 
-Step 4: Key generated from AES will be encrypted using RSA and it will use public key of receiver to encrypt given data (key from AES). 
+- **Dynamic AES Key Generation:** Generates a dynamic AES key for each file to enhance security.
 
-Step 5: Now we have encrypted data and encrypted key. 
+- **RSA Encryption:** Utilizes the Crypto.PublicKey module for RSA encryption to securely transmit the AES key using the recipient's public key.
 
-Step 6: Now tor URL can be generated which can be used for file (encrypted file) sharing on any system having tor environment. 
-
-Step 7: To decrypt the file, receiver will use its private key which only he have, receiver can use onion link on tor browser and can download encrypted file. Now he can decrypt the file using its private key.
-
-Step 8: Receiver have decrypted file without any security breach, while sharing the file between sender and receiver. 
+- **Tor Integration:** Sends encrypted files over the Tor network, generating recipient-accessible Tor URLs for encrypted file retrieval.
