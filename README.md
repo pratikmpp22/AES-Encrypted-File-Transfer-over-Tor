@@ -3,7 +3,6 @@
 This project combines the security of AES and RSA encryption with the anonymity benefits of Tor to create a robust and efficient method for securely sharing files.
 
 ## Overview
-
 The project provides a PyQt5-based graphical user interface (GUI) for seamless file handling, encryption, decryption, and transmission and reception over the Tor network.
 
 ## Features
