@@ -81,4 +81,13 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 1. Install dependencies: `pip install PyQt5 cryptography pycryptodome`
 2. Run the application: `python main.py`
 
+## Found a Bug or Want to Contribute?
+
+If you've encountered an issue or have a suggestion for improvement, your feedback is always welcome. Feel free to [open an issue](https://github.com/pratikmpp22/AES-Encrypted-File-Transfer-over-Tor/issues
+) on our GitHub repository.
+
+## Show Your Support
+
+If you find this project useful or appreciate the work done, consider leaving a star on our GitHub repository. Your support motivates me to continue improving and maintaining the project.
+
 
