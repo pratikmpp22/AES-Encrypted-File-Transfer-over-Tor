@@ -22,7 +22,7 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 ## Usage
 1. Run the application using `main.py`.
 2. Use the GUI to select files, enter public/private keys, encrypt, and choose sender/receiver options for Tor file sharing.
-3. Recipients can use their private key to access Tor URLs and decrypt the received files.
+3. Recipients can utilize the private key sent by the sender to access Tor URLs and decrypt the received files.
 
 
 ## Detailed Steps
