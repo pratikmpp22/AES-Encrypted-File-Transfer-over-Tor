@@ -81,6 +81,4 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 1. Install dependencies: `pip install PyQt5 cryptography pycryptodome`
 2. Run the application: `python main.py`
 
-## License
-This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
 
