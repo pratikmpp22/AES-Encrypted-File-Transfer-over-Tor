@@ -25,50 +25,50 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 3. Recipients can utilize the private key sent by the sender to access Tor URLs and decrypt the received files.
 
 
-## Detailed Steps
+## Project Flow
 
 ### Scenario 1: Send Files on Tor and Generate Link
 
-**Step 1:** Browse the file to be encrypted and provide the recipient's public key.
+**1:** Browse the file to be encrypted and provide the recipient's public key.
 
-**Step 2:** Apply AES encryption to the browsed file using a randomly generated key.
+**2:** Apply AES encryption to the browsed file using a randomly generated key.
 
-**Step 3:** Obtain the key and the encrypted file from AES encryption.
+**3:** Obtain the key and the encrypted file from AES encryption.
 
-**Step 4:** Encrypt the key generated from AES using RSA with the recipient's public key.
+**4:** Encrypt the key generated from AES using RSA with the recipient's public key.
 
-**Step 5:** Now, we have encrypted data and an encrypted key.
+**5:** Now, we have encrypted data and an encrypted key.
 
-**Step 6:** Generate a Tor URL for file (encrypted file) sharing on any system with a Tor environment.
+**6:** Generate a Tor URL for file (encrypted file) sharing on any system with a Tor environment.
 
-**Step 7:** Share the generated Tor link and the private key with the recipient for secure access to the encrypted files.
+**7:** Share the generated Tor link and the private key with the recipient for secure access to the encrypted files.
 
-**Step 8:** The recipient can use the Tor link and the private key sent by the sender to securely download and decrypt the files using their private key on the Tor browser.
+**8:** The recipient can use the Tor link and the private key sent by the sender to securely download and decrypt the files using their private key on the Tor browser.
 
-**Step 9:** The recipient now has the decrypted file without any security breaches.
+**9:** The recipient now has the decrypted file without any security breaches.
 
 
 ### Scenario 2: Send Files on Receiver's Link in Tor
 
-**Step 1:** Browse the file to be encrypted and provide the recipient's public key.
+**1:** Browse the file to be encrypted and provide the recipient's public key.
 
-**Step 2:** Apply AES encryption to the browsed file using a randomly generated key.
+**2:** Apply AES encryption to the browsed file using a randomly generated key.
 
-**Step 3:** Obtain the key and the encrypted file from AES encryption.
+**3:** Obtain the key and the encrypted file from AES encryption.
 
-**Step 4:** Encrypt the key generated from AES using RSA with the recipient's public key.
+**4:** Encrypt the key generated from AES using RSA with the recipient's public key.
 
-**Step 5:** Now, we have encrypted data and an encrypted key.
+**5:** Now, we have encrypted data and an encrypted key.
 
-**Step 6:** The recipient provides the sender with a Tor link and the private key to access the Tor link.
+**6:** The recipient provides the sender with a Tor link and the private key to access the Tor link.
 
-**Step 7:** The sender uses the provided Tor link and the private key to securely upload the encrypted files.
+**7:** The sender uses the provided Tor link and the private key to securely upload the encrypted files.
 
-**Step 7:** The sender uses the provided Tor link and the private key to securely upload the encrypted files.
+**7:** The sender uses the provided Tor link and the private key to securely upload the encrypted files.
 
-**Step 8:** The recipient receives the uploaded files from the sender on their system at the specified path, which was set when generating the reception Tor link. Subsequently, the recipient decrypts the files using their private key.
+**8:** The recipient receives the uploaded files from the sender on their system at the specified path, which was set when generating the reception Tor link. Subsequently, the recipient decrypts the files using their private key.
 
-**Step 9:** The recipient now has the decrypted file without any security breaches.
+**9:** The recipient now has the decrypted file without any security breaches.
 
 
 ## Dependencies
