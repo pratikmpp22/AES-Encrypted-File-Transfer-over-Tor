@@ -41,9 +41,9 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 
 **Step 6:** Generate a Tor URL for file (encrypted file) sharing on any system with a Tor environment.
 
-**Step 7:** Share the generated Tor link with the recipient for secure access to the encrypted files.
+**Step 7:** Share the generated Tor link and the private key with the recipient for secure access to the encrypted files.
 
-**Step 8:** The recipient can use the Tor link to download and decrypt the files using their private key on the Tor browser.
+**Step 8:** The recipient can use the Tor link and the private key sent by the sender to securely download and decrypt the files using their private key on the Tor browser.
 
 **Step 9:** The recipient now has the decrypted file without any security breaches.
 
@@ -66,7 +66,7 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 
 **Step 7:** The sender uses the provided Tor link and the private key to securely upload the encrypted files.
 
-**Step 8:** The recipient receives the uploaded files on their system, which were specified by the recipient when generating the reception Tor link. The recipient then decrypts the files using their private key.
+**Step 8:** The recipient receives the uploaded files from the sender on their system at the specified path, which was set when generating the reception Tor link. Subsequently, the recipient decrypts the files using their private key.
 
 **Step 9:** The recipient now has the decrypted file without any security breaches.
 
