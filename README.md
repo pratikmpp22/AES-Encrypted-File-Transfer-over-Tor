@@ -100,7 +100,7 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 
 ## Found a Bug or Want to Contribute?
 If you've encountered an issue or have a suggestion for improvement, your feedback is always welcome. Feel free to [open an issue](https://github.com/pratikmpp22/AES-Encrypted-File-Transfer-over-Tor/issues
-) on our GitHub repository.
+) on the GitHub repository.
 
 
 ## Show Your Support
