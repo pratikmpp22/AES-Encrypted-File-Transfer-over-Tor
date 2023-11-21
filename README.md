@@ -1,6 +1,24 @@
 # Secure File Transfer via AES-RSA Encryption over Tor
 This project combines the security of AES and RSA encryption with the anonymity benefits of Tor to create a robust and efficient method for securely sharing files.
 
+
+## Navigation
+
+- [Overview](#overview)
+- [Features](#features)
+- [Usage](#usage)
+- [Project Flow](#project-flow)
+  - [Scenario 1: Send Files on Tor and Generate Link](#scenario-1-send-files-on-tor-and-generate-link)
+  - [Scenario 2: Send Files on Receiver's Link in Tor](#scenario-2-send-files-on-receivers-link-in-tor)
+- [Dependencies](#dependencies)
+- [Setup](#setup)
+- [Found a Bug or Want to Contribute?](#found-a-bug-or-want-to-contribute)
+- [Show Your Support](#show-your-support)
+- [License](#license)
+- [Contact](#contact)
+
+
+
 ## Overview
 The project provides a PyQt5-based graphical user interface (GUI) for seamless file handling, encryption, decryption, and transmission and reception over the Tor network.
 
@@ -76,18 +94,25 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 - cryptography
 - Crypto
 
-- ## Setup
 
+- ## Setup
 1. Install dependencies: `pip install PyQt5 cryptography pycryptodome`
 2. Run the application: `python main.py`
 
-## Found a Bug or Want to Contribute?
 
+## Found a Bug or Want to Contribute?
 If you've encountered an issue or have a suggestion for improvement, your feedback is always welcome. Feel free to [open an issue](https://github.com/pratikmpp22/AES-Encrypted-File-Transfer-over-Tor/issues
 ) on our GitHub repository.
 
+
 ## Show Your Support
+If you find this project useful or appreciate the work done, consider leaving a star on the GitHub repository. Your support motivates me to continue improving and maintaining the project.
 
-If you find this project useful or appreciate the work done, consider leaving a star on our GitHub repository. Your support motivates me to continue improving and maintaining the project.
 
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
+## Contact
+For questions or feedback, feel free to email me.
 
