@@ -8,8 +8,6 @@ This project combines the security of AES and RSA encryption with the anonymity 
 - [Features](#features)
 - [Usage](#usage)
 - [Project Flow](#project-flow)
-  - [Scenario 1: Send Files on Tor and Generate Link](#scenario-1-send-files-on-tor-and-generate-link)
-  - [Scenario 2: Send Files on Receiver's Link in Tor](#scenario-2-send-files-on-receivers-link-in-tor)
 - [Dependencies](#dependencies)
 - [Setup](#setup)
 - [Found a Bug or Want to Contribute?](#found-a-bug-or-want-to-contribute)
