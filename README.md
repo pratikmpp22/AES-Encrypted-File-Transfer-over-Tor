@@ -96,7 +96,7 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 
 
 
-- ## Setup
+## Setup
 1. Install dependencies: `pip install PyQt5 cryptography pycryptodome`
 2. Run the application: `python main.py`
 
