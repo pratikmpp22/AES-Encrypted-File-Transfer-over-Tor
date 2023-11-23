@@ -91,6 +91,9 @@ The project provides a PyQt5-based graphical user interface (GUI) for seamless f
 - PyQt5
 - cryptography
 - Crypto
+- [Tor Browser](https://www.torproject.org/)
+- [OnionShare CLI](https://onionshare.org/)
+
 
 
 - ## Setup
